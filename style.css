@@ -83,3 +83,25 @@ td {
         font-size: 15px;
     }
 }
+
+@media (max-width: 500px) {
+    body {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .container td {
+        font-size: 10px;
+    }
+
+    .heading {
+        font-size: 20px;
+    }
+
+    .currentTime {
+        max-width: 220px;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 10px;
+    }
+}
+

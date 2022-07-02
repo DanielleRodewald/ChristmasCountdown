@@ -10,9 +10,9 @@ function countDown() {
     var date = document.getElementById ("cDate");
     date.innerHTML= currentTime.toLocaleDateString();
     
-    var dow = document.getElementById("dayOfWeek");
-    var weekDays = new Array ("Sun", "Mon", "Wed", "Fri", "Thursday", "Sunday");
-    dow .innerHTML = weekDays [currentTime.getDay()]
+    // var dow = document.getElementById("dayOfWeek");
+    // var weekDays = new Array ("Sun", "Mon", "Wed", "Fri", "Thursday", "Sunday");
+    // dow .innerHTML = weekDays [currentTime.getDay()]
 
 
     var eventDate = new Date("December 25,2022 00:00:00");
